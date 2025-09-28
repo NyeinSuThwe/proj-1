@@ -3,10 +3,11 @@
 <head>
   <meta charset="utf-8">
   <title>My Melody Hub — Blog Post</title>
-  <meta name="description" content="Blog post page for My Melody–inspired HTML-only portfolio and blog." />
+  <meta name="description" content="A student reflection on building a My Melody–inspired site using only HTML: what I focused on and what I learned." />
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
 
-  <meta property="og:title" content="My Melody Hub — Blog Post">
+  <!-- simple social preview (no styling needed) -->
+  <meta property="og:title" content="Structure with a Smile — HTML-Only Reflection">
   <meta property="og:type" content="article">
   <meta property="og:url" content="./post.html">
   <meta property="og:image" content="[put image here]">
@@ -25,23 +26,56 @@
       <a href="post.html" aria-current="page">Blog</a>
     </nav>
   </header>
+
   <main>
     <article>
       <header>
-        <h2>Structure with a Smile: HTML-Only Pages Inspired by My Melody</h2>
+        <h2>Structure with a Smile: Building a My Melody Page in Plain HTML</h2>
       </header>
+
       <figure>
-        <img src="[put image here]" width="800" height="450" alt="Wireframe sketch with a My Melody sticker vibe">
-        <figcaption>A low-fi wireframe illustration representing structure-first design.</figcaption>
+        <img src="[put image here]" width="800" height="450" alt="Simple sketch of a page layout with a small My Melody sticker in the corner">
+        <figcaption>My low-fi idea: header, clear nav, and calm sections that read well without any styles.</figcaption>
       </figure>
-      <p>When you strip away CSS and JavaScript, what remains is the pure content. This forces clarity in hierarchy, semantics, and accessibility.</p>
-      <p>Using headings, sections, and articles makes content flow naturally. Helpful alt text ensures everyone understands the visuals.</p>
-      <p>Even without styling, a clean structure makes the website readable and easy to navigate.</p
+
+      <p>
+        This post is a quick reflection on how I built a My Melody–inspired website using only HTML. 
+        No CSS, no JavaScript—just headings, sections, and good alt text. That constraint pushed me to think about
+        content first: what belongs on the page, in what order, and why it matters to a visitor who just wants to read.
+      </p>
+
+      <p>
+        I started with landmarks (<code>header</code>, <code>nav</code>, <code>main</code>, <code>footer</code>) so screen
+        readers and keyboard users get a clear map. From there, I used one <code>h1</code> per page and stepped down with
+        <code>h2</code>/<code>h3</code> to show hierarchy. Each image has a purpose and an <code>alt</code> that explains the idea
+        (not just the file name). Even without colors or fonts, that structure makes the page feel calm—kind of like My Melody’s
+        friendly, gentle vibe.
+      </p>
+
+      <p>
+        Writing the copy in my own voice helped too. Instead of chasing fancy layout tricks, I focused on the message:
+        a short welcome, a featured image with a caption, and three small “project” teasers that I can expand later.
+        It’s simple on purpose. If someone can understand the site with styles turned off, I’ve done my job.
+      </p>
+
+      <p>
+        The best part of the theme is that it reminds me to be kind to readers: short paragraphs, meaningful link text,
+        and clear section titles. If I add styling in the future, it’ll be the cherry on top—not the thing holding the
+        content together.
+      </p>
+
+      <p>
+        Further reading (theme reference): 
+        <a href="https://www.sanrio.com/blogs/sanrio/sanrio-friend-of-the-month-my-melody-2022">Sanrio — Friend of the Month: My Melody (2022)</a>
+      </p>
     </article>
   </main>
+
   <footer>
-    <p>Sources / Work Cited:
-      <a href="https://www.sanrio.com/blogs/sanrio/sanrio-friend-of-the-month-my-melody-2022">Sanrio Blog — My Melody 2022</a>,
+    <p>
+      Sources / Work Cited:
+      <a href="https://www.sanrio.com/blogs/sanrio/sanrio-friend-of-the-month-my-melody-2022">Sanrio Blog — My Melody 2022</a>
+      <!-- Add your own sketch/notes link later if you publish them -->
     </p>
   </footer>
 </body>
